@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>aprendeSumando</class>
+ <widget class="QMainWindow" name="aprendeSumando">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>780</width>
+    <height>580</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>780</width>
+    <height>580</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>780</width>
+    <height>580</height>
+   </size>
+  </property>
+  <property name="cursor">
+   <cursorShape>ArrowCursor</cursorShape>
+  </property>
+  <property name="windowTitle">
+   <string>Aprende sumando</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="boy.qrc">
+    <normaloff>:/files/question.png</normaloff>:/files/question.png</iconset>
+  </property>
+  <property name="windowOpacity">
+   <double>0.700000000000000</double>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 255);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="maximumSize">
+    <size>
+     <width>780</width>
+     <height>580</height>
+    </size>
+   </property>
+   <property name="cursor">
+    <cursorShape>OpenHandCursor</cursorShape>
+   </property>
+   <property name="mouseTracking">
+    <bool>true</bool>
+   </property>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>10</y>
+      <width>181</width>
+      <height>181</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="boy.qrc">:/files/question.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="nivel1">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>100</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(117, 80, 123);
+color:white;
+font:bold;
+border-radius:10px;</string>
+    </property>
+    <property name="text">
+     <string>Nivel 1</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="nivel2">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>100</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(117, 80, 123);
+color:white;
+font:bold;
+border-radius:10px;</string>
+    </property>
+    <property name="text">
+     <string>Nivel 2</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="nivel3">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>100</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(117, 80, 123);
+color:white;
+font:bold;
+border-radius:10px;</string>
+    </property>
+    <property name="text">
+     <string>Nivel 3</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="nivel4">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>100</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(117, 80, 123);
+color:white;
+font:bold;
+border-radius:10px;</string>
+    </property>
+    <property name="text">
+     <string>Nivel 4</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>30</y>
+      <width>511</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(173, 127, 168);
+color:white;
+padding:5px;</string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:20pt; font-weight:600;&quot;&gt;¿QUE TANTO SABES SUMAR?&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QProgressBar" name="progressBar">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>370</y>
+      <width>711</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="maximum">
+     <number>10</number>
+    </property>
+    <property name="value">
+     <number>0</number>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="respuesta1">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>410</y>
+      <width>221</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(206, 92, 0);
+font: 30pt &quot;Cantarell&quot;;
+color:white;
+font:bold;
+border-radius:15px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="respuesta2">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>410</y>
+      <width>231</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(206, 92, 0);
+color:white;
+font:bold;
+border-radius:15px;
+font: 30pt &quot;Cantarell&quot;;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="respuesta3">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>410</y>
+      <width>221</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(206, 92, 0);
+color:white;
+font:bold;
+border-radius:15px;
+font: 30pt &quot;Cantarell&quot;;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>500</y>
+      <width>711</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Desarollado por : Julian Guillermo Zapata Rugeles. C++</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="banner">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>240</y>
+      <width>711</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:36pt; font-weight:600; color:#204a87;&quot;&gt;VAMOS A SUMAR&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="well">
+    <property name="geometry">
+     <rect>
+      <x>660</x>
+      <y>240</y>
+      <width>121</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="boy.qrc">:/files/congratulation.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="well2">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>240</y>
+      <width>121</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="boy.qrc">:/files/congratulation.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="nivel4_2">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>150</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(117, 80, 123);
+color:white;
+font:bold;
+border-radius:10px;</string>
+    </property>
+    <property name="text">
+     <string>Nivel 5</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="nivel4_3">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>150</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(117, 80, 123);
+color:white;
+font:bold;
+border-radius:10px;</string>
+    </property>
+    <property name="text">
+     <string>Nivel 6</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="nivel4_4">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>150</y>
+      <width>251</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(117, 80, 123);
+color:white;
+font:bold;
+border-radius:10px;</string>
+    </property>
+    <property name="text">
+     <string>Nivel  maestro</string>
+    </property>
+   </widget>
+   <zorder>label</zorder>
+   <zorder>nivel1</zorder>
+   <zorder>nivel2</zorder>
+   <zorder>nivel3</zorder>
+   <zorder>nivel4</zorder>
+   <zorder>label_2</zorder>
+   <zorder>progressBar</zorder>
+   <zorder>respuesta1</zorder>
+   <zorder>respuesta2</zorder>
+   <zorder>respuesta3</zorder>
+   <zorder>label_3</zorder>
+   <zorder>banner</zorder>
+   <zorder>well</zorder>
+   <zorder>nivel4_2</zorder>
+   <zorder>nivel4_3</zorder>
+   <zorder>nivel4_4</zorder>
+   <zorder>well2</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>780</width>
+     <height>24</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="boy.qrc"/>
+ </resources>
+ <connections/>
+</ui>
