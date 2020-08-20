@@ -47,5 +47,9 @@ private:
     int progreso=0;
     int numeroTemporal=0;
     int aciertos=0;
+    int nivelActual=0;
+
+    QString qlogro1="",qlogro2="",qlogro3="",qlogro4="",qlogro5="",qlogro6="",qlogro7="";
+    int l1=0,l2=0,l3=0,l4=0,l5=0,l6=0,l7=0;
 };
 #endif // APRENDESUMANDO_H
